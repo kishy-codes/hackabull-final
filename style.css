@@ -78,7 +78,7 @@ body {
     letter-spacing: 1.5px;
     transition: all 0.3s;
     text-shadow: 0 0 8px rgba(180, 0, 255, 0.9), 0 0 20px rgba(180, 0, 255, 0.6);
-    font-family: 'HK Modular', sans-serif;
+    font-family: 'HK Modular', 'Orbitron', sans-serif;
 }
 
 .nav-pill a:hover {
