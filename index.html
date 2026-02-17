@@ -10,20 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Orbitron:wght@600;700&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/a2e0e6ad7f.js" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- TOP BAR -->
-
+<div class="top-bar">
     <nav class="nav-pill">
         <a href="#home">HOME</a>
         <a href="#about">ABOUT</a>
         <a href="#tracks">TRACKS</a>
-        <a href="#sponsors">SPONSORS</a>
         <a href="#faq">FAQ</a>
     </nav>
 
@@ -32,33 +28,8 @@
     </a>
 </div>
 
-<!-- HERO -->
+<!-- HERO - JUST BACKGROUND -->
 <section class="hero" id="home">
-    <div class="hero-content">
-        <img src="images/hackabull-logo-flat.png" alt="Hackabull VII" class="site-logo">
-        <h2>READY FOR THE SHOW?</h2>
-        
-        <div id="countdown">
-            <div>
-                <span id="days">00</span>
-                <small>DAYS</small>
-            </div>
-            <div>
-                <span id="hours">00</span>
-                <small>HOURS</small>
-            </div>
-            <div>
-                <span id="minutes">00</span>
-                <small>MINUTES</small>
-            </div>
-            <div>
-                <span id="seconds">00</span>
-                <small>SECONDS</small>
-            </div>
-        </div>
-        
-        <button>Register Now</button>
-    </div>
 </section>
 
 <!-- ABOUT -->
@@ -68,9 +39,18 @@
         <p class="lead">We build inclusive, creative hackathons for students and makers.</p>
 
         <div class="about-grid">
-            <div class="about-card"><img src="images/city.jpg" alt="about image 1"></div>
-            <div class="about-card"><img src="images/city.jpg" alt="about image 2"></div>
-            <div class="about-card"><img src="images/city.jpg" alt="about image 3"></div>
+            <div class="about-card">
+                <h3 style="color: #39ff14; margin-bottom: 10px;">Inclusive</h3>
+                <p>Open to all skill levels and backgrounds</p>
+            </div>
+            <div class="about-card">
+                <h3 style="color: #39ff14; margin-bottom: 10px;">Creative</h3>
+                <p>Build anything you can imagine</p>
+            </div>
+            <div class="about-card">
+                <h3 style="color: #39ff14; margin-bottom: 10px;">Community</h3>
+                <p>Connect with fellow makers and innovators</p>
+            </div>
         </div>
     </div>
 </section>
@@ -92,23 +72,6 @@
                 <div class="track-num">03</div>
                 <div class="track-title">Sustainability</div>
             </div>
-        </div>
-    </div>
-</section>
-
-<!-- SPONSORS -->
-<section id="sponsors" class="sponsors">
-    <div class="sponsors-inner">
-        <h2 class="section-title glow">Sponsors</h2>
-        <p class="lead">We appreciate the support of our partners.</p>
-
-        <div class="sponsors-grid">
-            <div class="sponsor-card"><img src="images/sponsors/logo1.png" alt="Sponsor 1"></div>
-            <div class="sponsor-card"><img src="images/sponsors/logo2.png" alt="Sponsor 2"></div>
-            <div class="sponsor-card"><img src="images/sponsors/logo3.png" alt="Sponsor 3"></div>
-            <div class="sponsor-card"><img src="images/sponsors/logo4.png" alt="Sponsor 4"></div>
-            <div class="sponsor-card"><img src="images/sponsors/logo5.png" alt="Sponsor 5"></div>
-            <div class="sponsor-card"><img src="images/sponsors/logo6.png" alt="Sponsor 6"></div>
         </div>
     </div>
 </section>
@@ -140,7 +103,7 @@
 
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">What is the team size limit?</button>
-                <div class="faq-answer">Teams can have up to [X] members.</div>
+                <div class="faq-answer">Teams can have up to 4 members.</div>
             </div>
 
             <div class="faq-item">
@@ -165,7 +128,7 @@
 
             <div class="faq-item">
                 <button class="faq-question" aria-expanded="false">Where and when is the event?</button>
-                <div class="faq-answer">The hackathon will take place at [location] on [date].</div>
+                <div class="faq-answer">The hackathon will take place at USF SHPE on March 15-16, 2026.</div>
             </div>
 
         </div>
