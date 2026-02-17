@@ -44,8 +44,8 @@ body {
 /* NAV PILL */
 .nav-pill {
     background: transparent;
-    border: 2px solid rgba(255, 20, 147, 0.7);
-    box-shadow: 0 0 15px rgba(255, 20, 147, 0.4), inset 0 0 15px rgba(255, 20, 147, 0.05);
+    border: 2px solid rgba(180, 0, 255, 0.8);
+    box-shadow: 0 0 15px rgba(180, 0, 255, 0.5), inset 0 0 15px rgba(180, 0, 255, 0.05);
     padding: 14px 36px;
     border-radius: 50px;
     display: flex;
@@ -59,18 +59,19 @@ body {
 }
 
 .nav-pill a {
-    color: #ff69b4;
+    color: #cc44ff;
     text-decoration: none;
     font-weight: 800;
     font-size: 15px;
     letter-spacing: 1.5px;
     transition: all 0.3s;
-    text-shadow: 0 0 8px rgba(255, 105, 180, 0.8), 0 0 20px rgba(255, 20, 147, 0.5);
+    text-shadow: 0 0 8px rgba(180, 0, 255, 0.9), 0 0 20px rgba(180, 0, 255, 0.6);
+    font-family: 'HK Modular', sans-serif;
 }
 
 .nav-pill a:hover {
-    color: #ff1493;
-    text-shadow: 0 0 12px rgba(255, 20, 147, 1), 0 0 30px rgba(255, 20, 147, 0.8);
+    color: #dd77ff;
+    text-shadow: 0 0 12px rgba(180, 0, 255, 1), 0 0 30px rgba(180, 0, 255, 0.9);
     letter-spacing: 2px;
 }
 /* MLH */
