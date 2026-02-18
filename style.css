@@ -46,8 +46,8 @@ body {
 }
 
 .social-icons-top img {
-    width: 58px;
-    height: 58px;
+    width: 63px;
+    height: 63px;
     transition: transform 0.35s ease, filter 0.35s ease;
     filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
 }
